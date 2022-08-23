@@ -1,0 +1,215 @@
+
+        body
+        {
+            font-family: sans-serif;
+        }
+        /* 1st section starts */
+        .sec1-container {
+            background-image: url(images/donation1.jpg);
+            margin: 0px;
+            height: 600px;
+            width: auto;
+            background-repeat: no-repeat;
+            background-size: cover;
+            color: white;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .sec1-container h1 {
+            font-size: 70px;
+        }
+
+        .sec-button {
+            background-color: rgb(161, 50, 69);
+            color: white;
+            border: 0px;
+            height: 50px;
+            width: 150px;
+            border-radius: 10px;
+        }
+
+        /* 2nd section starts */
+
+        .sec2-content {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            margin-top: 100px;
+        }
+
+        .sec2-divelement1 {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            width: 50%;
+        }
+
+        .sec2-divelement2 {
+            display: flex;
+            flex-direction: column;
+            border-bottom: 1px solid lightblue;
+
+        }
+
+        .sec2-divelement2 .sec2-element2 div {
+            height: 150px;
+            width: 150px;
+            border-radius: 5px;
+            margin-left: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: rgb(242, 241, 241);
+            font-size: 25px;
+            font-weight: 900;
+            border-bottom: 1px solid lightblue;
+
+        }
+
+        .sec2-divelement2 .sec2-element2 {
+            display: flex;
+        }
+
+        .span-sec2-text {
+            text-align: center;
+        }
+
+        /* 3rd section starts */
+        .sec3-divelem1 {
+            text-align: center;
+            margin-top: 100px;
+        }
+
+        .sec3-divelem2 {
+            display: flex;
+            justify-content: center;
+        }
+
+        .sec3-divelem2 div {
+            background-color: antiquewhite;
+            margin-left: 20px;
+            width: 250px;
+            height: 300px;
+            padding: 20px;
+        }
+
+        /* fourth section starts */
+        .carved {
+            background-color: lightblue;
+            color: aliceblue;
+            text-align: center;
+            margin-top: 100px;
+            margin-bottom: 100px;
+
+        }
+
+        .carved-img {
+            max-width: 250px;
+            padding: 1rem;
+            position: relative;
+            background: linear-gradient(to right, red, purple);
+            padding: 3px;
+            display: flex;
+        }
+
+        .carved-img div {
+            background:lightblue;
+            padding: 2rem;
+        }
+
+        .carved .carved-img {
+            margin: 0 5rem 0 5rem;
+            color: black;
+        }
+
+        .carved svg {
+            display: block;
+            border-bottom: 0px;
+        }
+
+        /* fifth section starts */
+
+        .sec5-divcontent1 {
+           margin: auto;
+           text-align: center;
+           margin-top: 100px;
+
+        }
+
+        .sec5-divcontent2 {
+            height: 200px;
+            width: 800px;
+            background-color: antiquewhite;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: auto;
+        }
+
+        .form-button {
+            background-color: rgb(161, 50, 69);
+            color: white;
+            border: 0px;
+            height: 45px;
+            width: 150px;
+            margin-left: 0%;
+            padding: 10px;
+            border-radius: 10px;
+            float: right;
+            padding-right: 25px;
+            border-top-left-radius: 0;
+            border-bottom-left-radius: 0;
+            border-left: 0;
+            border-left: 1px solid rgb(161, 50, 69);
+            outline: 0;
+            position: absolute;
+
+        }
+
+        .email-field {
+            padding: 10px;
+            font-size: 17px;
+            border: 1px solid #282A35;
+            border-radius: 10px;
+            float: left;
+            width: 400px;
+            padding-left: 25px;
+            background: white;
+            border-top-right-radius: 0;
+            border-bottom-right-radius: 0;
+            border-right: 0;
+            border-right: 1px solid rgb(161, 50, 69);
+            outline: 0;
+            position: relative;
+
+        }
+
+
+        /* footer section style */
+        .footer-div-content {
+            background-color: #282A35;
+            margin-top: 100px;
+            color: white;
+            text-align: center;
+            height: 200px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .footer-text {
+            color: rgb(197, 99, 115);
+            font-family: 'Dancing Script', cursive;
+        }
+
+
+        .h1-text-size
+        {
+            font-size: 50px;
+            font-weight: 900;
+        }
